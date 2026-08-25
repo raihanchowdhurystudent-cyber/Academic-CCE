@@ -1,4 +1,4 @@
-
+// Complete IIUC CCE Autumn 2026 Class Routine Data Structure
 
 const routineData = {
     university: "International Islamic University Chittagong",
@@ -77,9 +77,9 @@ const routineData = {
                         { course: "CCE-1207", teacher: "AJ" },
                         { course: "CCE-1207", teacher: "AJ" },
                         { course: "MATH-2401", teacher: "AH" },
-                        { course: "MDP-1201", teacher: "" },
-                        { course: "CCE-1207", teacher: "AJ" },
-                        null
+                        null,
+                        null,
+                        { course: "MDP-1201", teacher: "Adj_RA" }
                     ],
                     Sunday: [
                         { course: "CCE-1206", teacher: "FA", lab: "Software Development Lab" },
@@ -95,7 +95,7 @@ const routineData = {
                         { course: "PHY-1202", teacher: "HM", lab: "EEE Lab" },
                         null,
                         { course: "GEED-1201", teacher: "NI-IS" },
-                        null
+                        { course: "CCE-1207", teacher: "AJ" }
                     ],
                     Tuesday: [
                         { course: "PHY-1201", teacher: "HM" },
@@ -123,21 +123,21 @@ const routineData = {
                         { course: "MATH-2301", teacher: "DMGH" },
                         { course: "MATH-2301", teacher: "DMGH" },
                         { course: "GEED-2302", teacher: "MJI" },
-                        { course: "CCE-2307", teacher: "AA" },
-                        { course: "CCE-2307", teacher: "AA" }
+                        null,
+                        null
                     ],
                     Sunday: [
                         { course: "CHEM-2301", teacher: "DMS", lab: "Chemistry Lab(FSE)" },
                         { course: "CHEM-2301", teacher: "DMS", lab: "Chemistry Lab(FSE)" },
-                        { course: "CCE-2301", teacher: "AAM" },
-                        { course: "CCE-2301", teacher: "AAM" },
+                        { course: "CCE-2307", teacher: "AA" },
                         null,
-                        null
+                        null,
+                        { course: "CCE-2307", teacher: "AA" }
                     ],
                     Monday: [
                         { course: "CCE-2301", teacher: "AAM" },
-                        null,
-                        { course: "MDP-2302", teacher: "" },
+                        { course: "CCE-2301", teacher: "AAM" },
+                        { course: "MDP-2302", teacher: "SAB" },
                         { course: "CCE-2305", teacher: "IUF" },
                         { course: "CCE-2305", teacher: "IUF" },
                         null
@@ -145,7 +145,7 @@ const routineData = {
                     Tuesday: [
                         { course: "CCE-2302", teacher: "AJ", lab: "Programming Lab" },
                         { course: "CCE-2302", teacher: "AJ", lab: "Programming Lab" },
-                        null,
+                        { course: "CCE-2301", teacher: "AAM" },
                         { course: "CHEM-2301", teacher: "DMS" },
                         { course: "CHEM-2301", teacher: "DMS" },
                         { course: "CHEM-2301", teacher: "DMS" }
@@ -166,7 +166,7 @@ const routineData = {
                     Saturday: [
                         { course: "STAT-2401", teacher: "MSH" },
                         { course: "STAT-2401", teacher: "MSH" },
-                        { course: "CCE-2407", teacher: "NCS" },
+                        { course: "CCE-2407", teacher: "JN" },
                         { course: "CCE-2407", teacher: "JN" },
                         { course: "CCE-2407", teacher: "JN" },
                         { course: "MATH-2401", teacher: "AH" }
@@ -256,14 +256,14 @@ const routineData = {
                     Saturday: [
                         { course: "CCE-3602", teacher: "DMSI", lab: "B.Comp.&.Simu Lab" },
                         { course: "CCE-3602", teacher: "DMSI", lab: "B.Comp.&.Simu Lab" },
-                        { course: "CCE-3601", teacher: "DMSI" },
+                        { course: "CCE-3602", teacher: "DMSI", lab: "B.Comp.&.Simu Lab" },
                         { course: "CCE-3606", teacher: "WBA", lab: "Software Development Lab" },
                         { course: "CCE-3606", teacher: "WBA", lab: "Software Development Lab" },
                         { course: "CCE-3606", teacher: "WBA", lab: "Software Development Lab" }
                     ],
                     Sunday: [
-                        { course: "CCE-3601", teacher: "DMSI" },
                         null,
+                        { course: "CCE-3601", teacher: "DMSI" },
                         { course: "CCE-3616", teacher: "DMS" },
                         { course: "CCE-3611", teacher: "HJ" },
                         { course: "CCE-3611", teacher: "HJ" },
@@ -281,7 +281,7 @@ const routineData = {
                         { course: "CCE-3609", teacher: "ARAM", lab: "Software Development lab" },
                         { course: "CCE-3609", teacher: "ARAM", lab: "Software Development lab" },
                         { course: "CCE-3609", teacher: "ARAM", lab: "Software Development lab" },
-                        { course: "CCE-3613", teacher: "NCS" },
+                        { course: "CCE-3614", teacher: "NCS", lab: "B.Com & Simulation Lab" },
                         { course: "CCE-3614", teacher: "NCS", lab: "B.Com & Simulation Lab" },
                         { course: "CCE-3614", teacher: "NCS", lab: "B.Com & Simulation Lab" }
                     ],
@@ -301,15 +301,15 @@ const routineData = {
                     Saturday: [
                         { course: "CCE-4720", teacher: "SMI", lab: "Electronic Lab (ETE)" },
                         { course: "CCE-4720", teacher: "SMI", lab: "Electronic Lab (ETE)" },
-                        { course: "CCE-4719", teacher: "SMI" },
-                        { course: "CCE-4707", teacher: "DMAH" },
+                        { course: "CCE-4720", teacher: "SMI", lab: "Electronic Lab (ETE)" },
+                        { course: "CCE-4708", teacher: "DMAH", lab: "B.Comp.&.Simu Lab" },
                         { course: "CCE-4708", teacher: "DMAH", lab: "B.Comp.&.Simu Lab" },
                         { course: "CCE-4708", teacher: "DMAH", lab: "B.Comp.&.Simu Lab" }
                     ],
                     Sunday: [
                         { course: "CCE-4706", teacher: "MI", lab: "AI & ML Lab" },
                         { course: "CCE-4706", teacher: "MI", lab: "AI & ML Lab" },
-                        { course: "CCE-4705", teacher: "MI" },
+                        { course: "CCE-4706", teacher: "MI", lab: "AI & ML Lab" },
                         { course: "CCE-4830", teacher: "MR", lab: "Software Development Lab" },
                         { course: "CCE-4830", teacher: "MR", lab: "Software Development Lab" },
                         { course: "CCE-4701", teacher: "HJ" }
@@ -389,6 +389,9 @@ const routineData = {
                         { course: "CCE-1104", teacher: "IUF", lab: "EEE Lab" },
                         { course: "CCE-1104", teacher: "IUF", lab: "EEE Lab" },
                         { course: "CCE-1104", teacher: "IUF", lab: "EEE Lab" },
+                        null,
+                        null,
+                        null
                     ],
                     Sunday: [
                         { course: "CCE-1103", teacher: "IUF" },
@@ -396,9 +399,7 @@ const routineData = {
                         { course: "CCE-1105", teacher: "MJH" },
                         { course: "MATH-1101", teacher: "AH" },
                         { course: "MATH-1101", teacher: "AH" },
-                        { course: "GEEL-1106", teacher: "TI" },
-                        null,
-                        null
+                        { course: "GEEL-1106", teacher: "TI" }
                     ],
                     Monday: [
                         { course: "PHY-1101", teacher: "HM" },
@@ -423,7 +424,7 @@ const routineData = {
                         { course: "GEEM-1101", teacher: "SIC" },
                         { course: "PHY-1101", teacher: "HM" },
                         { course: "PHY-1101", teacher: "HM" },
-                        null
+                        { course: "MATH-1101", teacher: "AH" }
                     ]
                 }
             },
@@ -494,7 +495,7 @@ const routineData = {
                     Monday: [
                         { course: "CCE-1206", teacher: "ANS", lab: "Programming Lab" },
                         { course: "CCE-1206", teacher: "ANS", lab: "Programming Lab" },
-                        null,
+                        { course: "CCE-1206", teacher: "ANS", lab: "Programming Lab" },
                         { course: "MATH-1201", teacher: "AH" },
                         { course: "MATH-1201", teacher: "AH" },
                         null
@@ -521,8 +522,8 @@ const routineData = {
                 room: "706, Academic Building 5 (Male Zone)",
                 routine: {
                     Saturday: [
-                        { course: "CCE-2305", teacher: "MAA" },
-                        { course: "CCE-2305", teacher: "MAA" },
+                        null,
+                        null,
                         { course: "MDP-2302", teacher: "MU" },
                         { course: "MATH-2301", teacher: "DMGH" },
                         { course: "MATH-2301", teacher: "DMGH" },
@@ -545,8 +546,8 @@ const routineData = {
                         { course: "CHEM-2301", teacher: "DMS" }
                     ],
                     Tuesday: [
-                        null,
-                        null,
+                        { course: "CCE-2305", teacher: "MAA" },
+                        { course: "CCE-2305", teacher: "MAA" },
                         null,
                         null,
                         { course: "GEED-2301", teacher: "AI" },
@@ -593,7 +594,7 @@ const routineData = {
                         { course: "CCE-2310", teacher: "MR", lab: "IoT Lab" },
                         { course: "MDP-2305", teacher: "MAA" },
                         { course: "MDP-2305", teacher: "MAA" },
-                        null
+                        { course: "GEED-2302", teacher: "AI" }
                     ],
                     Wednesday: [
                         { course: "CCE-2302", teacher: "AAM", lab: "IOT Lab" },
@@ -635,9 +636,9 @@ const routineData = {
                         null,
                         { course: "GEBL-2401", teacher: "MHI" },
                         { course: "CCE-2411", teacher: "RA" },
-                        { course: "CCE-2406", teacher: "MR", lab: "AI & ML Lab" },
-                        { course: "CCE-2406", teacher: "MR", lab: "AI & ML Lab" },
-                        { course: "CCE-2406", teacher: "MR", lab: "AI & ML Lab" }
+                        { course: "CCE-2412", teacher: "RA", lab: "EEE Lab" },
+                        { course: "CCE-2412", teacher: "RA", lab: "EEE Lab" },
+                        { course: "CCE-2412", teacher: "RA", lab: "EEE Lab" }
                     ],
                     Wednesday: [
                         { course: "CCE-2407", teacher: "NCS" },
@@ -655,24 +656,26 @@ const routineData = {
                     Saturday: [
                         { course: "ACC-3501", teacher: "DSA" },
                         { course: "ACC-3501", teacher: "DSA" },
-                        null,
                         { course: "CCE-3509", teacher: "ANS" },
-                        null, null
+                        null,
+                        null,
+                        null
                     ],
                     Sunday: [
                         { course: "URED-3503", teacher: "MMA" },
                         { course: "CCE-3505", teacher: "MHS" },
                         { course: "CCE-3505", teacher: "MHS" },
-                        { course: "CCE-3501", teacher: "MA" },
-                        { course: "CCE-3501", teacher: "MA" },
+                        { course: "CCE-3502", teacher: "N/A", lab: "Programming Lab" },
+                        { course: "CCE-3502", teacher: "N/A", lab: "Programming Lab" },
                         { course: "MDP-3503", teacher: "RA" }
                     ],
                     Monday: [
-                        { course: "CCE-3502", teacher: "MA", lab: "Programming Lab" },
-                        { course: "CCE-3502", teacher: "MA", lab: "Programming Lab" },
+                        { course: "CCE-3501", teacher: "N/A" },
+                        { course: "CCE-3501", teacher: "N/A" },
                         { course: "CCE-3505", teacher: "MHS" },
                         { course: "CCE-3508", teacher: "ARAM", lab: "IOT Lab" },
-                        { course: "CCE-3508", teacher: "ARAM", lab: "IOT Lab" }
+                        { course: "CCE-3508", teacher: "ARAM", lab: "IOT Lab" },
+                        null
                     ],
                     Tuesday: [
                         { course: "URED-3503", teacher: "MMA" },
@@ -683,7 +686,6 @@ const routineData = {
                         null
                     ],
                     Wednesday: [
-                        { course: "CCE-3506", teacher: "MHS", lab: "Programming lab" },
                         { course: "CCE-3506", teacher: "MHS", lab: "Programming lab" },
                         { course: "CCE-3506", teacher: "MHS", lab: "Programming lab" },
                         { course: "CCE-3511", teacher: "DMJI" },
@@ -733,7 +735,8 @@ const routineData = {
                         { course: "CCE-3609", teacher: "ARAM" },
                         { course: "CCE-3609", teacher: "ARAM" },
                         null,
-                        null, null
+                        null,
+                        null
                     ]
                 }
             },
@@ -767,7 +770,6 @@ const routineData = {
                         null,
                         { course: "ECON-4701", teacher: "DSA" },
                         { course: "ECON-4701", teacher: "DSA" },
-                        { course: "CCE-4701", teacher: "HJ" },
                         { course: "CCE-4702", teacher: "HJ", lab: "AI & ML Lab" },
                         { course: "CCE-4702", teacher: "HJ", lab: "AI & ML Lab" },
                         { course: "CCE-4702", teacher: "HJ", lab: "AI & ML Lab" }
@@ -794,9 +796,9 @@ const routineData = {
                         { course: "CCE-4808", teacher: "ZUA", lab: "AI & ML Lab" }
                     ],
                     Sunday: [
-                        { course: "CCE-4806", teacher: "ANS", lab: "Programming Lab" },
-                        { course: "CCE-4806", teacher: "ANS", lab: "Programming Lab" },
                         { course: "CCE-4825", teacher: "MZH" },
+                        { course: "CCE-4806", teacher: "ANS", lab: "Programming Lab" },
+                        { course: "CCE-4806", teacher: "ANS", lab: "Programming Lab" },
                         { course: "CCE-4825", teacher: "MZH" },
                         { course: "CCE-4826", teacher: "MZH", lab: "AI & ML Lab" },
                         { course: "CCE-4826", teacher: "MZH", lab: "AI & ML Lab" }
@@ -832,7 +834,11 @@ const routineData = {
     }
 };
 
-
+/**
+ * Helper function to retrieve a specific class section's routine
+ * @param {string} gender - "female" or "male"
+ * @param {string} section - Section name e.g., "1F", "2AM", "3BM", etc.
+ */
 function getRoutine(gender, section) {
     const normalizedGender = gender.toLowerCase();
     const scheduleGroup = routineData.schedules[normalizedGender];
@@ -849,6 +855,7 @@ function getRoutine(gender, section) {
     };
 }
 
+// --- Usage Example ---
 console.log("=== 1F (Female 1st Semester) Routine ===");
 console.log(getRoutine("female", "1F"));
 
